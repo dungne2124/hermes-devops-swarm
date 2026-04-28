@@ -1,0 +1,26 @@
+# Hermes DevOps Swarm — Production Dependencies
+
+# Core agent framework
+hermes-agent>=2.1.0
+
+# LLM client (Gemini + Claude via OpenAI-compatible endpoints)
+openai>=1.30.0
+anthropic>=0.25.0
+google-generativeai>=0.5.0
+
+# CI/CD integrations
+python-jenkins>=1.8.0
+PyGithub>=2.3.0
+sentry-sdk>=2.0.0
+
+# Config and utilities
+PyYAML>=6.0.1
+python-dotenv>=1.0.1
+httpx>=0.27.0
+tenacity>=8.3.0
+
+# Telegram notifications
+python-telegram-bot>=21.0.0
+
+# Data processing
+tiktoken>=0.7.0
